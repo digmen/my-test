@@ -1,8 +1,11 @@
 import React from 'react'
-import CollectUserData from './CollectUserData'
+import MainRouts from './routes/MainRouts'
+import { BrowserRouter } from 'react-router-dom'
 
 export default function App() {
   return (
-    <div><CollectUserData /></div>
+    <BrowserRouter>
+      <MainRouts />
+    </BrowserRouter>
   )
 }

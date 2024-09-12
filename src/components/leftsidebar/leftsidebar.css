@@ -1,0 +1,48 @@
+.factorail {
+    display: flex;
+    width: 20%;
+    padding: 10px;
+    margin-top: 10px;
+    height: calc(100vh - 10px);
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.left_bar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.left_bar h1 {
+    display: flex;
+    justify-content: center;
+    padding-block: 10px;
+}
+
+.left_bar_link {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.left_bar_link a {
+    width: 100%;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    padding: 10px;
+    border-radius: 6px;
+    transition: 0.3s ease-in-out;
+    box-shadow: -2px 2px 2px 0px rgb(136, 136, 136);
+}
+
+.left_bar_link a:hover {
+    box-shadow: -3px 3px 3px 1px rgb(213, 213, 213);
+    transition: 0.3s ease-in-out;
+    background-color: rgb(136, 136, 136);
+    color: white;
+}
