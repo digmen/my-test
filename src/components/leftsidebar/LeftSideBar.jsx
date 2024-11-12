@@ -8,6 +8,7 @@ export default function LeftSideBar() {
                 <div className='left_bar_link'>
                     <Link to='/'>Главное</Link>
                     <Link to='/factorial'>Фаториал на JS</Link>
+                    <Link to='/review'>Отзывы</Link>
                 </div>
             </div>
         </div>

@@ -114,7 +114,7 @@ export default function HomePage() {
 
     return (
         <DragDropContext onDragEnd={onDragEnd}>
-            <div className='container'>
+            <div className='container home_block'>
                 {Object.values(columns).map(column => (
                     <Droppable key={column.id} droppableId={column.id} direction="vertical">
                         {(provided) => (

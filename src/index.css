@@ -12,3 +12,8 @@
 .main_right {
     width: 100%;
 }
+
+.container {
+    margin-top: 10px;
+    padding-left: 10px;
+}
